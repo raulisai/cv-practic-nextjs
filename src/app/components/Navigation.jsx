@@ -15,7 +15,7 @@ export default function Navigation() {
 
 
     return (
-        <nav className="flex justify-center mt-5">
+        <nav className="flex justify-end mt-10 me-36">
         <ul className="flex items-center">
             {links.map(({ href, label }) => (      
           <li className="mr-5" key={href}>

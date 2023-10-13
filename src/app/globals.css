@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+ /* Ajustes para la imagen de fondo */
+ .bg-cover {
+  background-size: cover;
+  background-position: center;
+  max-height: 50vh; /* La imagen ocupa la mitad de la altura */
+  margin: 0 10; /* Margen mínimo a los lados */
+}
